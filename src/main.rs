@@ -2,6 +2,7 @@ extern crate robot;
 
 use robot::io::tcp_server;
 use robot::controller::Controller;
+use robot::peripherals::motors;
 
 fn main() {
 
